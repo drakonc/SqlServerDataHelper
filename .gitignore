@@ -1,0 +1,17 @@
+bin/
+obj/
+SqlServerHelper/bin/
+SqlServerHelper/obj/
+Api/bin/
+Api/obj/
+Tests/bin/
+Tests/obj/
+*.user
+*.suo
+*.cache
+*.log
+.vs/
+TestResults/
+*.db
+*.mdf
+*.ldf
