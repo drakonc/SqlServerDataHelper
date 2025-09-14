@@ -3,7 +3,7 @@ using Microsoft.Data.SqlClient;
 
 namespace SqlServerHelper;
 
-public static class SqlHelper
+public static class SqlServerHelper
 {
     private static string? _connectionString;
 
