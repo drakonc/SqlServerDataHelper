@@ -1,10 +1,11 @@
 namespace SqlServerHelper.Models
 {
-    public class SqlOutputResult
+    /// <summary>
+    /// Resultado de stored procedure con parámetros de salida
+    /// </summary>
+    public class SqlOutputResult<T>
     {
-        // Propiedades para parámetros de salida
-        public int ReturnCode { get; set; }
-        public string Message { get; set; }
-        // Otros parámetros de salida
+        public List<T> Data { get; set; } = new();
+        public Dictionary<string, object> OutputParameters { get; set; } = new();
     }
 }
