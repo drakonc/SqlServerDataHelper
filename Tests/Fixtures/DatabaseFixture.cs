@@ -1,7 +1,6 @@
 using Microsoft.Data.SqlClient;
-using SqlHelper;
 using Microsoft.Extensions.Configuration;
-using System.IO;
+using SqlHelper;
 
 namespace Tests.Fixtures
 {
