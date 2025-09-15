@@ -4,11 +4,13 @@ namespace SqlServerHelper.Extensions
 {
     public static class DataRowExtensions
     {
-        // Métodos de extensión para mapeo de DataRow
-        public static T MapTo<T>(this DataRow row)
+        public static T GetFieldValue<T>(this DataRow row, string columnName, T defaultValue = default!)
         {
-            // Implementación de mapeo
-            throw new NotImplementedException();
+            if (row.Table.Columns.Contains(columnName) && row[columnName] != DBNull.Value)
+            {
+                return (T)Convert.ChangeType(row[columnName], typeof(T));
+            }
+            return defaultValue;
         }
     }
 }
