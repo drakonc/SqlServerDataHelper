@@ -1,4 +1,4 @@
-namespace SqlServerHelper.Models
+namespace SqlHelper.Models
 {
     /// <summary>
     /// Resultado de stored procedure con parámetros de salida

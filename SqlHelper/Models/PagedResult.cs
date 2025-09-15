@@ -1,4 +1,4 @@
-namespace SqlServerHelper.Models
+namespace SqlrHelper.Models
 {
     /// <summary>
     /// Resultado paginado con metadatos de paginación

@@ -1,4 +1,4 @@
-using System;
+using SqlHelper;
 
 namespace Tests.Fixtures
 {
@@ -6,7 +6,8 @@ namespace Tests.Fixtures
     {
         public DatabaseFixture()
         {
-            // Setup de base de datos para tests
+            // Configura la cadena de conexión para la base de datos de pruebas
+            SqlServerHelper.Configure("Server=localhost;Database=SqlHelperTestDb;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;");
         }
 
         public void Dispose()

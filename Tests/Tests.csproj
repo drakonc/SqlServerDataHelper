@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SqlHelper\SqlHelper.csproj" />
+    <ProjectReference Include="..\SqlServerHelper\SqlServerHelper.csproj" />
   </ItemGroup>
 
 </Project>

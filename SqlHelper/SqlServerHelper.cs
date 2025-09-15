@@ -1,8 +1,9 @@
 ﻿using System.Data;
 using Microsoft.Data.SqlClient;
-using SqlServerHelper.Models;
+using SqlHelper.Models;
+using SqlrHelper.Models;
 
-namespace SqlServerHelper;
+namespace SqlHelper;
 
 public static class SqlServerHelper
 {

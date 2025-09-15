@@ -1,6 +1,6 @@
 using System.Data;
 
-namespace SqlServerHelper.Extensions
+namespace SqlHelper.Extensions
 {
     public static class DataRowExtensions
     {
