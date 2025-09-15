@@ -1,8 +1,3 @@
-CREATE DATABASE SqlHelperTestDb;
-GO
-USE SqlHelperTestDb;
-GO
-
 -- Tabla principal
 CREATE TABLE Medico (
     Id INT IDENTITY PRIMARY KEY,
